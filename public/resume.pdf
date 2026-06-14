@@ -1,0 +1,81 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 650 >>
+stream
+BT
+/F2 20 Tf
+72 720 Td
+(CHANDAN S) Tj
+/F1 11 Tf
+0 -20 Td
+(MCA Student | Aspiring Software Developer | AWS Cloud Learner) Tj
+0 -15 Td
+(Email: chandan895121@gmail.com | Phone: 8951219251 | Bangalore, Karnataka) Tj
+0 -30 Td
+(PROFESSIONAL SUMMARY) Tj
+0 -15 Td
+(Passionate about software development, cloud computing, and AI-driven solutions. I enjoy building) Tj
+0 -12 Td
+(innovative applications and solving real-world problems through technology.) Tj
+0 -25 Td
+(EDUCATION) Tj
+0 -15 Td
+(- MCA (Master of Computer Applications) - PES University (Pursuing)) Tj
+0 -15 Td
+(- BCA (Bachelor of Computer Applications) - Triveni Institute (CGPA: 7.21)) Tj
+0 -15 Td
+(- 12th Standard - Vidhyadhama PU College (75%)) Tj
+0 -15 Td
+(- 10th Standard - Sidhartha Vidyanekethana (79%)) Tj
+0 -25 Td
+(SKILLS) Tj
+0 -15 Td
+(- Programming: Java, Python, C) Tj
+0 -12 Td
+(- Web Development: HTML, CSS, JavaScript, Flask) Tj
+0 -12 Td
+(- Database: MySQL, SQL) Tj
+0 -12 Td
+(- Tools & Tech: Git, GitHub, AWS Cloud, REST APIs) Tj
+0 -12 Td
+(- Core Subjects: DSA, OOP, OS, DBMS, Computer Networks) Tj
+0 -25 Td
+(PROJECTS) Tj
+0 -15 Td
+(- Food Nutrients Meal Planner: AI nutrition system providing personalized food recommendations) Tj
+0 -12 Td
+(- CPU Scheduler Simulator: Process scheduling simulator with performance charts) Tj
+0 -12 Td
+(- Chess LLM: Interactive Chess platform with Large Language Model commentary) Tj
+0 -25 Td
+(CERTIFICATIONS) Tj
+0 -15 Td
+(- AWS Cloud Practitioner Essentials) Tj
+0 -12 Td
+(- Introduction to Containers (AWS)) Tj
+0 -12 Td
+(- Skill India / PMKVY Certification) Tj
+ET
+endstream
+endobj
+xref
+0 5
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000306 00000 n 
+trailer
+<< /Size 5 /Root 1 0 R >>
+startxref
+1200
+%%EOF
