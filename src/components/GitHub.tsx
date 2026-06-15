@@ -44,9 +44,7 @@ export const GitHub: React.FC = () => {
           name: 'Chandan S',
           login: 'Chandan-1818',
           bio: 'MCA Student | Full Stack Developer | Cloud & AI Enthusiast',
-          public_repos: 14,
-          followers: 8,
-          following: 12,
+          public_repos: 5,
           html_url: 'https://github.com/Chandan-1818'
         });
       } finally {
