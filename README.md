@@ -55,23 +55,23 @@ npm run preview
 ```
 PORTFOLIO/
 ├── public/
-│   ├── resume.pdf          # Resume file for download
-│   └── *.png               # Project screenshots
+│   ├── resume.pdf          
+│   └── *.png               
 ├── src/
-│   ├── components/         # All page sections
+│   ├── components/         
 │   ├── context/
-│   │   └── ThemeContext.tsx # Dark/light mode
+│   │   └── ThemeContext.tsx 
 │   ├── assets/
 │   ├── App.tsx
 │   ├── main.tsx
-│   └── index.css           # Tailwind + custom theme tokens
+│   └── index.css          
 ├── index.html
 ├── vite.config.ts
 └── tailwind.config.js
 ```
 
-## Customization
+DEPLOYED AT ---
+https://chandan-portfolio-1818.vercel.app/
 
-- Personal details (name, email, phone, links) are hardcoded in their respective components under `src/components/`
-- Replace `public/resume.pdf` with your actual resume to enable the download button
-- Theme colors (`brand-blue`, `brand-cyan`) are defined in `src/index.css` under `@theme`
+
+
