@@ -55,24 +55,7 @@ export const GitHub: React.FC = () => {
     fetchGitHubProfile();
   }, []);
 
-  // Generate mock contribution calendar grid (53 weeks * 7 days)
-  const generateContributions = () => {
-    const grid = [];
-    // Colors ranging from empty to high contribution (Tailwind compatible opacity/green colors)
-    const levels = [
-      'bg-slate-100 dark:bg-slate-800/80',
-      'bg-emerald-200/60 dark:bg-emerald-900/30',
-      'bg-emerald-350 dark:bg-emerald-700/60',
-      'bg-emerald-500 dark:bg-emerald-500/80',
-      'bg-emerald-600 dark:bg-emerald-400',
-    ];
-
-    // Seeded pseudo-random generator to make graph persistent but organic-looking
-    let seed = 42;
-    const random = () => {
-      const x = Math.sin(seed++) * 10000;
-      return x - Math.floor(x);
-    };
+  
 
     for (let i = 0; i < 53 * 7; i++) {
       const val = random();
