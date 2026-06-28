@@ -11,6 +11,7 @@ import { Certifications } from './components/Certifications';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { AnimatePresence } from 'framer-motion';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -40,6 +41,7 @@ function App() {
               <Contact />
               <Footer />
             </div>
+            <SpeedInsights />
           </div>
         )}
       </AnimatePresence>
