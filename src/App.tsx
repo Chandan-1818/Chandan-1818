@@ -8,7 +8,6 @@ import { Skills } from './components/Skills';
 import { Education } from './components/Education';
 import { Projects } from './components/Projects';
 import { Certifications } from './components/Certifications';
-import { GitHub } from './components/GitHub';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { AnimatePresence } from 'framer-motion';
@@ -38,7 +37,6 @@ function App() {
               <Education />
               <Projects />
               <Certifications />
-              <GitHub />
               <Contact />
               <Footer />
             </div>

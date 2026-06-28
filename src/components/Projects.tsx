@@ -10,6 +10,7 @@ interface Project {
   technologies: string[];
   category: 'ai' | 'systems' | 'web';
   categoryLabel: string;
+  image?: string;
 }
 
 export const Projects: React.FC = () => {
@@ -24,6 +25,7 @@ export const Projects: React.FC = () => {
       technologies: ['Python', 'Flask', 'Gemini API', 'HTML', 'CSS'],
       category: 'web',
       categoryLabel: 'AI & Web Development',
+      image: '/food_meal_planner.png',
     },
     {
       title: 'CPU Scheduler Simulator',
@@ -32,6 +34,7 @@ export const Projects: React.FC = () => {
       technologies: ['Java', 'Data Structures', 'Algorithms'],
       category: 'systems',
       categoryLabel: 'Systems & Algorithms',
+      image: '/cpu_scheduler.png',
     },
     {
       title: 'Chess LLM',
@@ -40,6 +43,16 @@ export const Projects: React.FC = () => {
       technologies: ['Python', 'AI', 'LLMs'],
       category: 'ai',
       categoryLabel: 'AI & Machine Learning',
+      image: '/chess_llm.png',
+    },
+    {
+      title: 'Cricket Score Tracker',
+      github: 'https://github.com/Chandan-1818/cricket-score-tracker',
+      description: 'A production-ready full-stack MERN application to create, track, score, and persist cricket matches in real-time with glassmorphic UI.',
+      technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Mongoose'],
+      category: 'web',
+      categoryLabel: 'Full Stack Web',
+      image: '/cricket-score-tracker.jpeg',
     },
   ];
 
@@ -137,9 +150,22 @@ export const Projects: React.FC = () => {
                 exit={{ opacity: 0, scale: 0.95 }}
                 transition={{ duration: 0.3 }}
                 key={project.title}
-                className="flex flex-col justify-between p-6 rounded-2xl glass-card border-slate-200/50 dark:border-slate-800/40 relative group overflow-hidden h-full"
+                className="flex flex-col justify-between rounded-2xl glass-card border-slate-200/50 dark:border-slate-800/40 relative group overflow-hidden h-full"
               >
-                <div>
+                {/* Project Image */}
+                {project.image && (
+                  <div className="relative h-48 overflow-hidden bg-slate-100 dark:bg-slate-900">
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      loading="lazy"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  </div>
+                )}
+
+                <div className={`p-6 flex-1 flex flex-col ${!project.image ? 'pt-6' : ''}`}>
                   {/* Category Tag */}
                   <span className="inline-block px-2.5 py-1 rounded-lg text-xs font-semibold uppercase tracking-wider text-brand-blue bg-brand-blue/10 dark:text-brand-cyan dark:bg-brand-cyan/10 mb-4">
                     {project.categoryLabel}
@@ -157,7 +183,7 @@ export const Projects: React.FC = () => {
                 </div>
 
                 {/* Footer part: Tech stack and Links */}
-                <div className="mt-8">
+                <div className="p-6 pt-0 flex-1 flex flex-col justify-end">
                   {/* Technology pills */}
                   <div className="flex flex-wrap gap-1.5 mb-6">
                     {project.technologies.map((tech) => (
