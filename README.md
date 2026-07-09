@@ -72,6 +72,8 @@ PORTFOLIO/
 
 DEPLOYED AT ---
 https://chandan-portfolio-1818.vercel.app/
+## Updated Profile
+This repository was updated to improve my GitHub profile.
 
 
 
