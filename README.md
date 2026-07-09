@@ -1,79 +1,94 @@
-# Chandan S — Portfolio
+<div align="center">
 
-Personal portfolio website built with React, TypeScript, Tailwind CSS, and Framer Motion.
+# 🌐 Chandan S — Portfolio
 
-## Tech Stack
+### Full Stack Developer • AI/ML Enthusiast • MCA Student
 
-- **React 19** + **TypeScript**
-- **Tailwind CSS v4** — utility-first styling with custom theme tokens
-- **Framer Motion** — page and scroll animations
-- **Vite 8** — build tool and dev server
-- **react-icons** — brand icons (GitHub, LinkedIn, AWS, etc.)
-- **canvas-confetti** — celebration effect
+<p align="center">
+  <a href="https://chandan-portfolio-1818.vercel.app">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Portfolio-0A66C2?style=for-the-badge" alt="Live Demo"/>
+  </a>
+  <a href="https://github.com/Chandan-1818">
+    <img src="https://img.shields.io/github/stars/Chandan-1818/Portfolio?style=for-the-badge" alt="Stars"/>
+  </a>
+  <a href="https://github.com/Chandan-1818/Portfolio/network/members">
+    <img src="https://img.shields.io/github/forks/Chandan-1818/Portfolio?style=for-the-badge" alt="Forks"/>
+  </a>
+  <a href="https://github.com/Chandan-1818/Portfolio/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Chandan-1818/Portfolio?style=for-the-badge" alt="License"/>
+  </a>
+</p>
 
-## Sections
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Framer_Motion-000000?style=flat-square&logo=framer&logoColor=white"/>
+</p>
 
-- **Hero** — intro, typing animation, resume download
-- **About** — background and summary
-- **Skills** — categorized tech stack with progress bars
-- **Education** — timeline
-- **Projects** — filterable/searchable project cards
-- **Certifications** — AWS and Google certifications
-- **GitHub** — live profile stats and contribution calendar
-- **Contact** — email, phone, social links
+<p align="center">
+  <a href="https://chandan-portfolio-1818.vercel.app"><strong>🌍 Live Website</strong></a>
+</p>
 
-## Getting Started
+</div>
 
-### Install dependencies
+---
 
-```bash
-npm install
-```
+## 📖 About
 
-### Start development server
+This repository contains the source code for my personal portfolio website. It showcases my projects, technical skills, certifications, education, GitHub activity, and professional journey through a modern, responsive, and interactive interface.
 
-```bash
-npm start
-```
+---
 
-Opens at **http://localhost:5173**
+## ✨ Features
 
-### Build for production
+- 🎨 Modern & Clean UI
+- 📱 Fully Responsive Design
+- 🌙 Dark & Light Theme
+- ⚡ Smooth Animations with Framer Motion
+- 💻 Interactive Hero Section
+- 🚀 Project Showcase
+- 🔍 Search & Filter Projects
+- 📜 Certifications Section
+- 🎓 Education Timeline
+- 📊 GitHub Statistics
+- 📅 GitHub Contribution Calendar
+- 📄 Resume Download
+- 📬 Contact Section
+- 🎉 Confetti Celebration Effect
 
-```bash
-npm run build
-```
+---
 
-### Preview production build
+## 🛠️ Tech Stack
 
-```bash
-npm run preview
-```
+| Category | Technologies |
+|-----------|--------------|
+| **Frontend** | React 19, TypeScript |
+| **Styling** | Tailwind CSS v4 |
+| **Animations** | Framer Motion |
+| **Build Tool** | Vite 8 |
+| **Icons** | React Icons |
+| **Effects** | Canvas Confetti |
 
-## Project Structure
+---
 
-```
-PORTFOLIO/
-├── public/
-│   ├── resume.pdf          
-│   └── *.png               
-├── src/
-│   ├── components/         
-│   ├── context/
-│   │   └── ThemeContext.tsx 
-│   ├── assets/
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── index.css          
-├── index.html
-├── vite.config.ts
-└── tailwind.config.js
-```
+## 🌍 Live Demo
 
-DEPLOYED AT ---
-https://chandan-portfolio-1818.vercel.app/
-## Updated Profile
-This repository was updated to improve my GitHub profile.
+### 🚀 https://chandan-portfolio-1818.vercel.app
 
+---
 
+## ⭐ Support
 
+If you like this project, consider giving it a ⭐ on GitHub.
+
+---
+
+<div align="center">
+
+### Thank you for visiting!
+
+Made with ❤️ using React, TypeScript, Tailwind CSS & Framer Motion.
+
+</div>
