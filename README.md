@@ -1,25 +1,73 @@
 <div align="center">
 
-<img src="./banner.png" alt="Portfolio Banner" width="100%"/>
+<img src="./banner.png" width="100%" alt="Portfolio Banner"/>
 
 # 👋 Hi, I'm Chandan S
 
 ### 💻 Full Stack Developer • AI/ML Enthusiast • MCA Student
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=0A66C2&center=true&vCenter=true&width=700&lines=Welcome+to+my+Portfolio!;React+%7C+TypeScript+%7C+Tailwind+CSS;Building+Modern+Web+Applications;Always+Learning+Something+New+🚀" alt="Typing SVG"/>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=26&pause=1000&color=0A66C2&center=true&vCenter=true&width=700&lines=Welcome+to+my+Portfolio!;React+Developer;Full+Stack+Developer;AI%2FML+Enthusiast;Always+Learning+New+Things+🚀)](https://git.io/typing-svg)
 
-<br><br>
+<br>
 
 <a href="https://chandan-portfolio-1818.vercel.app">
-  <img src="https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Now-0A66C2?style=for-the-badge" alt="Portfolio"/>
+<img src="https://img.shields.io/badge/🌐%20Live%20Portfolio-Visit%20Now-0A66C2?style=for-the-badge">
 </a>
 
-<br><br>
+</div>
 
-<img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
-<img src="https://img.shields.io/badge/Framer_Motion-000000?style=flat-square&logo=framer&logoColor=white"/>
+---
+
+# 📖 About
+
+Welcome to my personal portfolio repository.
+
+This portfolio showcases my journey as a developer through projects, technical skills, certifications, education, and GitHub activity. It is designed with a modern UI, responsive layouts, smooth animations, and an engaging user experience.
+
+---
+
+# ✨ Features
+
+- 🎨 Modern & Clean UI
+- 📱 Fully Responsive Design
+- 🌙 Dark & Light Theme
+- ⚡ Smooth Animations
+- 💻 Interactive Hero Section
+- 🚀 Project Showcase
+- 🔍 Search & Filter Projects
+- 🎓 Education Timeline
+- 📜 Certifications
+- 📊 GitHub Statistics
+- 📅 GitHub Contribution Calendar
+- 📄 Resume Download
+- 📬 Contact Section
+
+---
+
+# 🛠 Tech Stack
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=react,ts,tailwind,vite,js,html,css,nodejs,express,mongodb,git,github,vscode" />
+
+</p>
+
+---
+
+# 🌐 Live Website
+
+<div align="center">
+
+## 🚀 https://chandan-portfolio-1818.vercel.app
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ Thanks for visiting!
+
+If you like this project, consider giving it a ⭐.
 
 </div>
